@@ -11,7 +11,7 @@ class Config:
     """
     Base configuration class for the application.
     """
-    LOG_FILE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../logs/dev')
+    LOG_FILE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../logs')
 
     if not os.path.exists(LOG_FILE_DIR):
         os.makedirs(LOG_FILE_DIR)  # Ensure the logs directory exists
