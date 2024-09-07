@@ -1,9 +1,9 @@
 # app
-# flask==3.0.3                # for the web server
-# python-dotenv==1.0.1        # for loading environment variables
+flask==3.0.3                # for the web server
+python-dotenv==1.0.1        # for loading environment variables
 requests==2.32.3            # for making HTTP requests
-# setuptools==73.0.1          # for packaging
-# SQLAlchemy==2.0.32          # for database ORM
+setuptools==73.0.1          # for packaging
+SQLAlchemy==2.0.32          # for database ORM
 
 
 # dev/tests
